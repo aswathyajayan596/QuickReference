@@ -10,6 +10,10 @@ $ git status				//to check the files/changes for tracking
 
 $ git add <file>			//to start add files for tracking
 
+$ git config user.email "example@gmail.com"
+
+$ git config user.name "example"
+
 $ git commit -m ".......commit message........."
 
 $ git add *.*                           //add everything with extensions
