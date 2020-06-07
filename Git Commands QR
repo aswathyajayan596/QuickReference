@@ -1,0 +1,51 @@
+Git Commands:
+
+
+Creating a git repository:
+
+
+$ git init   				//hidden folder for tracking the repository
+
+$ git status				//to check the files/changes for tracking
+
+$ git add <file>			//to start add files for tracking
+
+$ git commit -m ".......commit message........."
+
+$ git add *.*                           //add everything with extensions
+
+$ git add .				//add everything which is not added or ignored.
+
+
+Adding a remote repository:
+
+$ git remote add origin http://git..... // add link to your repository created on Github
+
+$ git push -u origin master             // push to remote repository
+
+
+Unrelated histories error when trying to pull:
+
+$ git pull origin master --allow-unrelated-histories
+
+
+Pulling:
+
+$ git pull origin master  		// pull latest from the remote repository
+
+
+Pushing:
+
+$ git push -u origin master
+
+
+Branches and Merging:
+
+$ git branch <name>			//create branch with a name
+
+$ git checkout <name>			// checkout branch
+
+
+
+
+
