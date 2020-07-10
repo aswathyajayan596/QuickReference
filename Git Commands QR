@@ -64,7 +64,17 @@ $ git fetch --all			//to fetch all features/files of a repository
 
 $ git checkout <fetch_repo_name/master> //to go to detached master head, commits at this stage wont be considered.
 
-$ git checkout -b <new-branch_name>  	//to consider the commits in the branch.
+$ git checkout -b <new-branch_name>  	//to consider the commits in the branch. To create new branch .
+
+Commit your work..
+
+$ git checkout <master_branch> 		// go to master branch
+
+$ git merge <new-branch_name>		//merge changes in new branch with master branch
+
+$ git branch -d <new-branch_name>	// to delete the new branch once merge is done
+
+
 
 
 
