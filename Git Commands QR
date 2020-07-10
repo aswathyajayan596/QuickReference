@@ -50,6 +50,24 @@ $ git branch <name>			//create branch with a name
 $ git checkout <name>			// checkout branch
 
 
+Fetching and Merging:
+
+(initialise a git repository first --> git init)
+
+$ git remote add <fetch_repo_name> <URL>
+					//configure remote repo
+
+$ git fetch <fetch_repo_name> <branch_name> 
+					//to fetch a particular feature branch
+
+$ git fetch --all			//to fetch all features/files of a repository
+
+$ git checkout <fetch_repo_name/master> //to go to detached master head, commits at this stage wont be considered.
+
+$ git checkout -b <new-branch_name>  	//to consider the commits.
+
+
+
 
 
 
