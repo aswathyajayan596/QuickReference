@@ -64,7 +64,7 @@ $ git fetch --all			//to fetch all features/files of a repository
 
 $ git checkout <fetch_repo_name/master> //to go to detached master head, commits at this stage wont be considered.
 
-$ git checkout -b <new-branch_name>  	//to consider the commits.
+$ git checkout -b <new-branch_name>  	//to consider the commits in the branch.
 
 
 
